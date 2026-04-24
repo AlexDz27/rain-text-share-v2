@@ -1,6 +1,7 @@
 <?php
 
-$previousContent = file_get_contents('..' . DIRECTORY_SEPARATOR . 'back-end' . DIRECTORY_SEPARATOR . 'data' . DIRECTORY_SEPARATOR . '1.txt');
+$fileNumber = pathinfo(basename(__FILE__), PATHINFO_FILENAME);  // [AI: pathinfo]
+require 'main.php';
 
 ?>
 <!DOCTYPE html>
