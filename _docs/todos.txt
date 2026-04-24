@@ -1,0 +1,2 @@
+- gitignore on data/ )
+- better way for main.php, or rather the *main* function arch

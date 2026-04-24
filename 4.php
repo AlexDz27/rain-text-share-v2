@@ -15,7 +15,8 @@ require 'main.php';
 <body>
 
 <main class="main cont">
-  <form action="save.php" method="POST">
+  <form action="back-end/save.php" method="POST">
+    <input name="fileNumber" type="hidden" value="<?= $fileNumber ?>">
     <textarea name="textarea" class="textarea"><?= $previousContent ?></textarea>
     <button class="btn btn-save" type="submit">Save</button>
   </form>
