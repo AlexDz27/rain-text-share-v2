@@ -1,4 +1,9 @@
-NOW: try using just Git; tackle the location problem
+NOW: tackle the location problem
 
-- gitignore on data/ )
+
 - better way for main.php, or rather the *main* function arch
+
+
+
+
+- gitignore on data - or some way to just preserve history of messages
