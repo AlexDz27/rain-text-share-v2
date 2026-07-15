@@ -7,3 +7,5 @@ NOW: tackle the location problem
 
 
 - gitignore on data - or some way to just preserve history of messages
+
+- why is 1.php different from others?
